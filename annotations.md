@@ -27,3 +27,27 @@ Interno: Dentro da tag style dentro da tag head
 Externo: Criando um arquivo css e chamando no head com a tag link
 
 Por padrão cada navegador vem com propriedades definidas temos que padronizar. Para isso usamos um reset, existem diversos na web o mais comum é o Reset CSS do Meyer
+
+Diferença entre elementos inline e bloco
+Inline mantém o conteúdo em linha
+Bloco ele quebra o conteúdo
+
+Adicionar comentários no HTML
+<-- Aqui você adiciona o comentário -->
+
+Adicionar comentários no CSS
+/* Aqui você adiciona o comentário */
+
+Listas
+
+Existem 2 formas de exibir listas
+
+UL Lista não ordenas
+OL Listas ordenadas
+
+Para cada item usamos a tag li
+
+Liks
+
+Relativos Apenas nome dos arquivos
+Absolutos Endereço URL
