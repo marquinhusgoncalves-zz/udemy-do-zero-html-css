@@ -7,27 +7,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class=" container light">
     <nav>
       <ul>
-        <li><a href="#">Projetos</a></li>
+        <li><a href="#projetos">Projetos</a></li>
         <li><a href="./blog.html">Blog</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contatos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contatos">Contatos</a></li>
       </ul>
     </nav>
   </header>
 
-  <section>
+  <section class="identity">
     <h1>Marquinhus Gonçalves</h1>
     <h2>Front end</h2>
   </section>
 
-  <section>
-    <img src="projeto.png" alt="Imagem de uma lâmpada para representar todos os projetos">
-    <h3>Projetos</h3>
-    <p>Códigos e Textos</p>
-    <ul>
+  <section id="projetos" class="container light">
+    <div class="projects-header">
+      <img src="projeto.png" alt="Imagem de uma lâmpada para representar todos os projetos">
+      <h3>Projetos</h3>
+      <p>Códigos e Textos</p>
+    </div>
+    <ul class="projects">
       <li>
 				<a href="https://engenharia.elo7.com.br/css-basics-display/" target="_blank">Post: Css Basics - Display</a>
         <p>O que cada um dos atributos da propriedade display realmente significa? O objetivo deste post é abordar qual é o melhor
@@ -48,25 +50,26 @@
     </ul>
   </section>
 
-  <section>
+  <section id="sobre" class="container dark">
     <img src="marq.png" alt="Foto do Marquinhus Gonçalves">
-    <p>Olá eu sou o <strong>Marquinhus Gonçalves</strong></p>
-    <p>Eu sou front end e sou apaixonado por <strong>CSS. HTML e Javascript </strong>não ficam por fora também. Além de assuntos de front, também me interesso por backend e tenho curiosidade para aprender coisas novas.</p>
-    <p>Como parte de front end, uso principalmente as ferramentas no seu jeito puro, sem usar muitos frameworksou bibliotecas.</p>
+    <p class="bio">Olá eu sou o <strong>Marquinhus Gonçalves</strong></p>
+    <p class="text">Eu sou front end e sou apaixonado por <strong>CSS. HTML e Javascript </strong>não ficam por fora também. Além de assuntos de front, também me interesso por backend e tenho curiosidade para aprender coisas novas.</p>
+    <p class="text">Como parte de front end, uso principalmente as ferramentas no seu jeito puro, sem usar muitos frameworksou bibliotecas.</p>
   </section>
 
-  <section>
+  <section id="contato" class="container light">
     <h3>Contato</h3>
     <p>Diga olá !!!</p>
     <ul>
-      <li><a href="mailto:eu@marquinhusgoncalves.com" >E-mail</a></li>
-      <li><a href="https://twitter.com/marquinhusgonc" target="_blank">Twitter</a></li>
-      <li><a href="https://facebook.com/marquinhusgoncalves" target="_blank">Facebook</a></li>
-      <li><a href="https://github.com/marquinhusgoncalves" target="_blank">Github</a></li>
+      <li><a href="mailto:eu@marquinhusgoncalves.com" class="email">E-mail</a></li>
+      <li><a href="https://twitter.com/marquinhusgonc" class="twitter" target="_blank">Twitter</a></li>
+      <li><a href="https://facebook.com/marquinhusgoncalves" class="facebook" target="_blank">Facebook</a></li>
+      <li><a href="https://github.com/marquinhusgoncalves" class="github" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/marcusviniciusgoncalves/" class="linkedin" target="_blank">Github</a></li>
     </ul>
   </section>
 
-  <footer>
+  <footer class="dark">
 		<p>© Marquinhus Gonçalves 2018</p>
   </footer>
 </body>
