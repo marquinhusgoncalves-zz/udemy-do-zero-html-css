@@ -1,0 +1,42 @@
+.blog {
+  padding: 5em 2em 2em;
+}
+
+.article {
+  margin-bottom: 4em;
+  clear: both;
+}
+
+.blog h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.writer-and-date {
+  text-align: left;
+  font-size: 11px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.article-text {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.article-tag {
+  display: block;
+  width: 15%;
+  padding: 3px;background: #f7f7f7;
+}
+
+.article-button {
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 12px;
+  float: right;
+  cursor: pointer;
+}
